@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*_________________ MAIN __________________________________________________________________*/
+#Div_Admin_Main{
+	background-color: #bacae3;
+	width: 80em;
+	border: 1px solid blue;
+	
+}
+#Div_Clear{
+	clear: both;
+}
+/*___________________________________________________________________________________________________*/
+
+/*********************************************/
+/*_________________ BANNER _________________*/
+#Div_Admin_Banner{
+	width: 80em;
+	height: 9em;
+	background-color:#999;
+	text-align: center;
+	line-height: 9em;
+}
+#Div_Admin_Banner h1{
+	color:black;
+	font-size: 5em;
+	font-weight: bolder;
+}
+
+/*********************************************/
+/*_________________  MENU _________________*/
+#Div_Admin_Menu{
+	width: 15em;
+	height: calc(100%);
+	background-color:#bacae3;
+	float: left;
+	display: inline-block;
+}
+/*Ul*/
+#Div_Admin_Menu ul{
+}
+
+/*LI*/
+#Div_Admin_Menu ul li{
+	padding-left: 1.5em;
+	text-decoration: none;
+	list-style: none;
+	width: 100%;
+	height: 4.2em;
+	background-color: #bacae3;
+	text-align: left;
+	line-height: 6em;
+	font-weight: bold;
+	border-bottom: 1px red double; 
+	border-bottom-left-radius: 0.7em;
+	border-bottom-right-radius: 0.7em;
+}
+
+/*LI Hover*/
+#Div_Admin_Menu ul li:hover{
+	background-color: red;
+}
+
+/*A*/
+#Div_Admin_Menu ul li a{
+	text-decoration: none;
+	margin-left: 1.2em;
+	color: black;
+	font-size: 1.1em;
+}
+
+/*********************************************/
+/*_________________ CONTENT _________________*/
+#Div_Admin_Content{
+	padding-left: 1.5em;
+	width: 63em;
+	height: auto;
+	display: inline-block;
+	float: right;
+	
+}
+.Buy_Detail{
+	padding: 2em 0 0 2em;
+}
+.Buy_Detail input{
+	width: 6em; height: 2em;
+}
+
+/*List Product*/
+.Div_Product{
+	background-color: white;
+	width: 15em;
+	height: 22.813em;
+	border: 1px #999 solid;
+	display: inline-block;
+
+}
+.Div_Product a{
+	text-decoration: none;
+}
+.Div_Product a img{
+	width: 11em;
+	height: 11em;
+	display: block; 
+	margin: 0.5em auto 0.2em auto;
+}
+.Div_Product a h3{
+	color:black;
+	font-size:1.2em;
+	padding: 0.5em 0 0.5em 0.4em;
+}
+
+/*TGDD*/
+.props{padding-left: 0.5em;}
+.dotted{
+	border: 1px solid #222;
+	border-radius: 0.3em;
+	color: #999;
+
+}
+
+.price{padding-top: 0.5em}
+.price strong{color:red; padding:0.5em 0 0.2em 0.5em; font-size: 1.3em}
+.price span{color:#777; text-decoration: line-through; padding: 0.2em 0em 0em 0.7em font-size:1.3em;}
+.price i{}
+
+.ratingresult{padding:0.7em 0 0 0.5em ; }
+.ratingresult i{}
+.ratingresult span{font-size:1.3em; color: blue;}
+
+.spInfo{}
+
+/********************************************/
+/*_________________ FOOTER _________________*/
+#Div_Admin_Footer{
+	width: 80em;
+	height: 7em;
+	background-color:#666;
+}
